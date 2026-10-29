@@ -1,0 +1,19 @@
+A certificate can have valid dates and still cover the wrong campus. When that document changes, what happens to the earlier review? I’m Akshaj Sherekar from CELESTIAL_OUTLAWS. Our application, PramaanScope, helps reviewers check institutional evidence and understand the impact of corrections.
+
+Reviewers must check completeness, institution identity, campus, academic periods and previously approved intake. PramaanScope organizes these into twelve findings across six check groups. Each finding explains the result, supporting evidence and next action. Content checks, source verification and human review remain separate.
+
+The MVP accepts PDFs and images, preserves original files and extracts supported information with page references. Here, the original document sits beside its extracted fields. For scanned images, local OCR reads text on the device. Retained versions and file fingerprints help track the submitted evidence.
+
+This application concerns Campus A, but its certificate names Campus B. The system identifies unsuitable evidence without calling it forgery. The reviewer records a note and requests evidence for the correct campus. This gives the institution a precise correction to address, rather than a vague resubmission request.
+
+The institution now proposes a replacement. It remains a candidate until the reviewer accepts it. PramaanScope preserves the active document while extracting and comparing the proposed correction.
+
+This is our key feature: correction impact preview. Before acceptance, the application calculates which findings depend on the old document and which earlier review actions need reconsideration. It also shows findings with unchanged dependencies. The counts come from recorded evidence relationships, helping the reviewer see the consequences before changing the application.
+
+After acceptance, the system recalculates the checks and retains the original evidence. Earlier reviews remain linked to the earlier version instead of silently applying to the replacement. If the application changes after a preview, the system requires a refreshed preview before confirmation.
+
+Source verification stays explicit. An unavailable source produces an unresolved task, not automatic rejection. This prototype uses synthetic records and simulated issuer responses. Live government verification and digital-signature validation remain future integration work.
+
+The MVP also supports manual infrastructure assessment, inspection recommendations, review history and PDF reports. A separate protected mode provides reviewer and institution accounts, with application permissions and private reviewer notes. These features keep evidence handling and responsibility clear.
+
+PramaanScope connects evidence, clarification and correction impact in one review journey. Our goal is clearer scrutiny and fewer unnecessary repeat checks, while authorized officials retain the final decision. Thank you.

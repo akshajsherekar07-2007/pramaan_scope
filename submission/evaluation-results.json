@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-10-27T12:50:54.731Z",
+  "scope": "12 deterministic synthetic packet cases, actual PDF generation and text extraction. Not real-world accuracy, a held-out benchmark, or an officer time-saving study.",
+  "results": [
+    {
+      "scenario": "Wrong campus",
+      "check": "campus-scope",
+      "expected": "DEFICIENCY",
+      "observed": "DEFICIENCY",
+      "passed": true,
+      "elapsedMs": 426.6
+    },
+    {
+      "scenario": "Correct campus",
+      "check": "campus-scope",
+      "expected": "PASS",
+      "observed": "PASS",
+      "passed": true,
+      "elapsedMs": 8.7
+    },
+    {
+      "scenario": "Different institution",
+      "check": "identity-certificate",
+      "expected": "DEFICIENCY",
+      "observed": "DEFICIENCY",
+      "passed": true,
+      "elapsedMs": 8
+    },
+    {
+      "scenario": "Expired certificate",
+      "check": "certificate-validity",
+      "expected": "DEFICIENCY",
+      "observed": "DEFICIENCY",
+      "passed": true,
+      "elapsedMs": 6.6
+    },
+    {
+      "scenario": "Ambiguous date",
+      "check": "certificate-validity",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "passed": true,
+      "elapsedMs": 6.3
+    },
+    {
+      "scenario": "Impossible date",
+      "check": "certificate-validity",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "passed": true,
+      "elapsedMs": 5.6
+    },
+    {
+      "scenario": "Historical approval",
+      "check": "period-approval",
+      "expected": "PASS",
+      "observed": "PASS",
+      "passed": true,
+      "elapsedMs": 5.6
+    },
+    {
+      "scenario": "Wrong approval period",
+      "check": "period-approval",
+      "expected": "DEFICIENCY",
+      "observed": "DEFICIENCY",
+      "passed": true,
+      "elapsedMs": 6.2
+    },
+    {
+      "scenario": "Historical intake mismatch",
+      "check": "historical-intake",
+      "expected": "DEFICIENCY",
+      "observed": "DEFICIENCY",
+      "passed": true,
+      "elapsedMs": 6.7
+    },
+    {
+      "scenario": "Missing certificate",
+      "check": "completeness",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "passed": true,
+      "elapsedMs": 7.2
+    },
+    {
+      "scenario": "Source unavailable",
+      "check": "source-verification",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "passed": true,
+      "elapsedMs": 6
+    },
+    {
+      "scenario": "Simulated source match",
+      "check": "source-verification",
+      "expected": "UNRESOLVED",
+      "observed": "UNRESOLVED",
+      "passed": true,
+      "elapsedMs": 6.2
+    }
+  ]
+}

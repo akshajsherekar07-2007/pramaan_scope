@@ -1,0 +1,57 @@
+[
+  {
+    "seconds": 0,
+    "title": "PramaanScope · SIH26261",
+    "description": "Evidence-led institutional review. This demonstration uses synthetic records; all issuing-source responses are simulated."
+  },
+  {
+    "seconds": 15,
+    "title": "Each requirement has its own evidence and result",
+    "description": "The matrix separates consistent content, discrepancies, unresolved verification, and human review."
+  },
+  {
+    "seconds": 28,
+    "title": "Readable evidence can still cover the wrong campus",
+    "description": "The application concerns Campus A. The submitted certificate identifies Campus B. The original and extracted passage appear together."
+  },
+  {
+    "seconds": 46,
+    "title": "Request the specific evidence needed",
+    "description": "The reviewer records a precise clarification. The finding and its original evidence remain in the review history."
+  },
+  {
+    "seconds": 63,
+    "title": "Preview the impact before accepting a correction",
+    "description": "The uploaded candidate is actually parsed. The system calculates changed fields, dependent findings, prior review actions, and unaffected findings."
+  },
+  {
+    "seconds": 87,
+    "title": "The campus changes from B to A",
+    "description": "Document-level dependencies trigger conservative recalculation. Prior source attestations are not transferred to new file bytes."
+  },
+  {
+    "seconds": 108,
+    "title": "Accept the replacement and retain the old review",
+    "description": "The original is superseded, affected checks are recalculated, and earlier reviews remain historical rather than silently becoming current."
+  },
+  {
+    "seconds": 124,
+    "title": "An old green review cannot stand in for new evidence",
+    "description": "The current campus check is consistent. Earlier review actions explicitly refer to the previous evidence version and need reconsideration."
+  },
+  {
+    "seconds": 143,
+    "title": "A source outage is an unresolved check",
+    "description": "The simulated source is unavailable. The system requests manual confirmation and does not automatically reject the institution."
+  },
+  {
+    "seconds": 160,
+    "title": "Real OCR, processed locally",
+    "description": "The bundled Tesseract model reads the synthetic scan on this device. No cloud key is required. Extraction does not establish authenticity."
+  },
+  {
+    "seconds": 174,
+    "title": "Evidence, corrections, and reasons stay together",
+    "description": "The working prototype exports a review report. Live issuer connections, signature validation, and production authentication remain pilot work."
+  }
+]

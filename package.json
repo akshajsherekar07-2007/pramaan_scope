@@ -1,0 +1,44 @@
+{
+  "name": "pramaanscope",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch server/index.ts",
+    "dev:web": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/index.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "evaluate": "tsx scripts/evaluate.ts",
+    "record": "node scripts/record-demo.mjs",
+    "prepare:ocr": "node scripts/prepare-ocr.mjs",
+    "postinstall": "npm run prepare:ocr"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "express": "^4.21.2",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.468.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "2.4.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tesseract.js": "^5.1.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.56.1",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+Scenario,Check,Expected,Observed,Pass,PDF-processing-ms
+Wrong campus,campus-scope,DEFICIENCY,DEFICIENCY,true,426.6
+Correct campus,campus-scope,PASS,PASS,true,8.7
+Different institution,identity-certificate,DEFICIENCY,DEFICIENCY,true,8
+Expired certificate,certificate-validity,DEFICIENCY,DEFICIENCY,true,6.6
+Ambiguous date,certificate-validity,UNRESOLVED,UNRESOLVED,true,6.3
+Impossible date,certificate-validity,UNRESOLVED,UNRESOLVED,true,5.6
+Historical approval,period-approval,PASS,PASS,true,5.6
+Wrong approval period,period-approval,DEFICIENCY,DEFICIENCY,true,6.2
+Historical intake mismatch,historical-intake,DEFICIENCY,DEFICIENCY,true,6.7
+Missing certificate,completeness,UNRESOLVED,UNRESOLVED,true,7.2
+Source unavailable,source-verification,UNRESOLVED,UNRESOLVED,true,6
+Simulated source match,source-verification,UNRESOLVED,UNRESOLVED,true,6.2
